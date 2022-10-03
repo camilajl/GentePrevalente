@@ -62,7 +62,7 @@ function Solicitud() {
 
         {/* FORM  */}
         <main >
-        <section className="grid justify-center  bg-midgrey h-[1230px] w-full  ">
+        <section className="grid justify-center  bg-midgrey h-[1230px] w-full sm:h-[980px]  ">
             
             {/* primera fila texto boton */}
             <div className="sm:h-0">
@@ -81,6 +81,7 @@ function Solicitud() {
             
             <div className="grid place-content-center grid-rows-3 pt-8 rounded-lg bg-white mt-[60px]  w-[357px] h-[1010px] sm:h-[734px] sm:w-[942px] sm:mt-0 sm:grid-rows-2 ;">
                {/* segunda fila imagen info  */}
+               
                 <div className="flex flex-row gap-12">
                 <div className="grid place-content-center bg-white h-[237px] w-[291px] sm:ml-30 ">
                     <img src={lnegro} alt="lnegro" />          
@@ -157,11 +158,7 @@ function Solicitud() {
                         </ul>
                     </div>
                 
-                
-                
-               </div>           
-            </div>
-            <div className="hidden sm:block  ">
+                <div className="hidden sm:block mt-28 ">
                 <div className="flex flex-row justify-center">
                 <img src={flechag} alt="flecha" />
                 <p className="px-2 pt-2">Empresa 1 de 2 pendiente por aprobación</p>
@@ -170,6 +167,11 @@ function Solicitud() {
                 
                 </div>
             </div>
+                
+                
+               </div>           
+            </div>
+           
             
         
         

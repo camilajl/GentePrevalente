@@ -34,7 +34,9 @@ function Navbar() {
         </svg>
         </span>
         
-        <p className="pl-3 ml-2 w-40 bg-grey rounded-md ">Buscar</p>
+        <form >          
+          <input placeholder="Buscar" className="pl-3 ml-2 w-40 bg-grey rounded-md placeholder-white" type="text" />  
+        </form>
     </div>
     </div>
   
@@ -94,7 +96,7 @@ function Navbar() {
 
         </Link>
         {/* SEGUNDA CARD */}
-        <div className="bg-white rounded-2xl shadow-xl min-h-[145px] min-w-[345px] sm:h-80 sm:w-100">
+        <div className="bg-white rounded-2xl shadow-xl min-h-[145px] min-w-[345px] cursor-pointer sm:h-80 sm:w-100">
         <span className=" absolute left-auto ml-8 top-[296px] h-[67px] w-[62px] bg-blue rounded-md sm:h-28 sm:w-24 sm:top-28 sm:ml-8">
             <img className="mx-2.5 my-3.5 h-10 w-10 sm:mx-4 sm:my-6 sm:h-16 sm:w-16" src={img2} alt="img1" />
             </span>
@@ -114,7 +116,7 @@ function Navbar() {
         </div>
 
          {/* TERCERA CARD */}
-        <div className="bg-white rounded-2xl shadow-xl min-h-[145px] min-w-[345px] sm:h-80 sm:w-100">
+        <div className="bg-white cursor-pointer rounded-2xl shadow-xl min-h-[145px] min-w-[345px] sm:h-80 sm:w-100">
 
         <span className=" absolute left-auto ml-8 top-[478px] h-[67px] w-[62px] bg-blue rounded-md sm:h-28 sm:w-24 sm:top-[472px] sm:ml-8">
             <img className="mx-2.5 my-3.5 h-10 w-10 sm:mx-4 sm:my-6 sm:h-16 sm:w-16" src={img4} alt="img1" />
@@ -135,7 +137,7 @@ function Navbar() {
         </div>
 
         {/* CUARTA CARD */}
-        <div className="bg-white rounded-2xl shadow-xl min-h-[145px] min-w-[345px] sm:h-80 sm:w-100">
+        <div className="bg-white cursor-pointer rounded-2xl shadow-xl min-h-[145px] min-w-[345px] sm:h-80 sm:w-100">
         <span className=" absolute left-auto ml-8 top-[666px] h-[67px] w-[62px] bg-blue rounded-md sm:h-28 sm:w-24 sm:top-[472px] sm:ml-8">
             <img className="mx-2.5 my-3.5 h-10 w-10 sm:mx-4 sm:my-6 sm:h-16 sm:w-16" src={img3} alt="img1" />
             </span>

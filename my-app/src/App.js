@@ -10,6 +10,9 @@ import Modal from './components/Modal';
 
 //import { getUserData } from "./api";
 //import {UserForm} from './UserForm'
+//import Notas from '../src/components/Notas'
+//import { EasybaseProvider } from 'easybase-react' //, useEasybase } ;
+//import { useEffect } from 'react';
 
 function App() {
   return (
@@ -21,8 +24,12 @@ function App() {
         <Route exact path="/cv" element={<Cv />} />      
         <Route exact path="/empleo" element={<Empleo />} />   
         <Route exact path="/perfil" element={<Perfil />} />
-        <Route exact path="/modal" element={<Modal />} />                
-    </Routes>
+        <Route exact path="/modal" element={<Modal />} />  
+        </Routes>
+
+
+
+   
   
   );
 }

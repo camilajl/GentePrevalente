@@ -1,18 +1,21 @@
 import React from "react";
 import pdf from '../images/iPhone 11 Pro/archivo.svg'
-
+import { Link } from "react-router-dom";
 function Modal() {
     return (
-     <div className="flex place-content-center">
-       <div className="h-screen w-[300px]" >
-                <div className="flex flex-row justify-between">
-                <p className="text-black text-[18px] font-bold  pt-12">Documentos cargados</p>
-                <span className="flex items-end">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+     <div className="flex place-content-center h-screen bg-grey">
+       <div className="h-[600px] w-[400px] bg-white p-10 mt-16 rounded-2xl shadow-2xl " >
+                <div className="flex flex-row justify-between pb-8">
+                <p className="text-black text-[18px] font-bold  ">Documentos cargados</p>
+               <Link to={"/solicitud"}>
+               <span className="flex cursor-pointer ">
+                <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+                  </svg>
+               </span>
 
-                </span>
+               </Link>
+                
                 </div>
                  
                     <ul>
