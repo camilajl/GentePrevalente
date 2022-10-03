@@ -28,7 +28,7 @@ function Solicitud() {
         <div>
         <div className="flex items-center">
             
-            <span>
+            <span className="cursor-pointer">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
             </svg>
@@ -67,7 +67,7 @@ function Solicitud() {
             {/* primera fila texto boton */}
             <div className="sm:h-0">
 
-            <h2 className="flex flex-row mt-[40px] ml-[13px] sm:h-[30px] text-blue"> Administración <p className="text-black pl-2"> / Aprobación de empresas</p>  </h2>
+            <h2 className="flex flex-row mt-[40px] ml-[13px] sm:h-[30px] cursor-pointer text-blue"> Administración <p className="text-black pl-2"> / Aprobación de empresas</p>  </h2>
             
             <div className="sm:hidden pt-12">
                 <div className="flex flex-row justify-center">
@@ -140,7 +140,7 @@ function Solicitud() {
                    </form>
 
                     {/* DOCS Cargados */}
-                    <div className="sm:hidden">
+                    <div className="mt-4 sm:hidden">
                         <h1 className="text-black text-[18px] pt-12">Documentos cargados</h1>
                         <ul>
                             <li className="flex flex-row justify-between pt-8">
