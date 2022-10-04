@@ -17,7 +17,7 @@ function Navbar() {
     {/* Navbar */}
     <nav className="flex justify-between  items-center h-16 bg-dark text-white static shadow-sm" >
 
-    <Link to = "/" className="pl-8">
+    <Link to = "/GentePrevalente" className="pl-8">
         <div className="flex items-center">
             <img src={logo} alt="logo" />
             <p>GentePrevalente</p>
