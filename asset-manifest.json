@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/GentePrevalente/static/css/main.75466fc8.css",
+    "main.js": "/GentePrevalente/static/js/main.b3e4ce1b.js",
+    "static/js/787.28cb0dcd.chunk.js": "/GentePrevalente/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Logoo.svg": "/GentePrevalente/static/media/Logoo.55bd72eb6e5ad095b2439e778da4769e.svg",
+    "static/media/img3.svg": "/GentePrevalente/static/media/img3.f9c8eac48e0c91666f3c2d6ebd1acd45.svg",
+    "static/media/Logo Negro 1.svg": "/GentePrevalente/static/media/Logo Negro 1.584790639a6bbf8621046b9e0ed96de4.svg",
+    "static/media/archivo.svg": "/GentePrevalente/static/media/archivo.63c081dc085a5bc7f21cf62fc001478e.svg",
+    "static/media/img2.svg": "/GentePrevalente/static/media/img2.0822ab460c69722e35a5f14e6b24a807.svg",
+    "static/media/clip.svg": "/GentePrevalente/static/media/clip.8dc8fe034de916a45d7352c52e3ee8c8.svg",
+    "static/media/Vector.svg": "/GentePrevalente/static/media/Vector.f91673d5d19a6095159b92bc0f0dd9f6.svg",
+    "static/media/rojo.svg": "/GentePrevalente/static/media/rojo.ecfb75fc988306b75e7c61612ce4a327.svg",
+    "index.html": "/GentePrevalente/index.html",
+    "static/media/verde.svg": "/GentePrevalente/static/media/verde.45a4391549fc5351cf453d1da7d82320.svg",
+    "static/media/img4.svg": "/GentePrevalente/static/media/img4.6d07efff1af6feb71faf7fc861bda6d9.svg",
+    "static/media/flechag.svg": "/GentePrevalente/static/media/flechag.864117a6285b241a46e812e1281ed1a9.svg",
+    "static/media/flechan.svg": "/GentePrevalente/static/media/flechan.bebc7c94012a226a9da89016a5f59d20.svg",
+    "static/media/img1.svg": "/GentePrevalente/static/media/img1.c3edbd4f7020143364fa0c6d811bf627.svg",
+    "main.75466fc8.css.map": "/GentePrevalente/static/css/main.75466fc8.css.map",
+    "main.b3e4ce1b.js.map": "/GentePrevalente/static/js/main.b3e4ce1b.js.map",
+    "787.28cb0dcd.chunk.js.map": "/GentePrevalente/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75466fc8.css",
+    "static/js/main.b3e4ce1b.js"
+  ]
+}
