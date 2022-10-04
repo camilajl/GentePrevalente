@@ -18,7 +18,7 @@ function Solicitud() {
         {/* Navbar */}
         <nav className="flex justify-between items-center h-16 bg-dark text-white relative shadow-sm" >
     
-        <Link to = "/GentePrevalente" className="pl-8">
+        <Link to = "/GentePrevalente" className="pl-2 sm:pl-8">
             <div className="flex items-center">
                 <img src={logo} alt="logo" />
                 <p>GentePrevalente</p>
@@ -62,15 +62,15 @@ function Solicitud() {
 
         {/* FORM  */}
         <main >
-        <section className="grid justify-center  bg-midgrey h-[1230px] w-full sm:h-[980px]  ">
+        <section className="grid  justify-center  bg-midgrey h-[1450px] w-full sm:h-[980px]  ">
             
             {/* primera fila texto boton */}
-            <div className="sm:h-0">
+            <div className=" sm:h-0">
 
             <h2 className="flex flex-row mt-[40px] ml-[13px] sm:h-[30px] cursor-pointer text-blue"> Administración <p className="text-black pl-2"> / Aprobación de empresas</p>  </h2>
             
             <div className="sm:hidden pt-12">
-                <div className="flex flex-row justify-center">
+                <div className="flex flex-row ">
                 <img src={flechag} alt="flecha" />
                 <p className="px-2 pt-2">Empresa 1 de 2 pendiente por aprobación</p>
                 <img className="cursor-pointer" src={flechan} alt="flecha" />
@@ -79,10 +79,10 @@ function Solicitud() {
             </div>
             </div>
             
-            <div className="grid place-content-center grid-rows-3 pt-8 rounded-lg bg-white mt-[60px]  w-[357px] h-[1010px] sm:h-[734px] sm:w-[942px] sm:mt-0 sm:grid-rows-2 ;">
+            <div className="grid place-content-center grid-rows-3 pt-8 ml-5 rounded-lg bg-white w-[357px] h-[1010px] sm:h-[734px] sm:w-[942px] sm:mt-0 sm:grid-rows-2 ;">
                {/* segunda fila imagen info  */}
                
-                <div className="flex flex-row gap-12">
+                <div className="flex flex-row gap-10">
                 <div className="grid place-content-center bg-white h-[237px] w-[291px] sm:ml-30 ">
                     <img src={lnegro} alt="lnegro" />          
                 </div>
@@ -167,7 +167,16 @@ function Solicitud() {
                 
                 </div>
             </div>
-                
+            <div className="flex-col pl-8 sm:hidden pt-6 mt-14">
+                <button className="flex flex-row items-center pl-6 mb-4 w-[223px] h-[46px] rounded-lg bg-white shadow-xl hover:bg-midgrey" >                 
+                    <img src={verde} alt="verde" />
+                    <p className="ml-1.5 font-bold">Aceptar Empresa</p>
+                </button>
+                <button className="flex flex-row items-center pl-6 w-[223px] h-[46px] rounded-xl bg-white shadow-xl hover:bg-midgrey" >                 
+                    <img src={rojo} alt="rojo" />
+                    <p className="ml-1.5 font-bold">Rechazar Empresa</p>
+                </button>
+            </div>
                 
                </div>           
             </div>
